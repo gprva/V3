@@ -150,12 +150,12 @@ nav{
 font-size: 16px;
 font-weight: 600;
 line-height: 24px;
-color: #FFFFFF;
+color: darkgray ;
 transition: transform .5s ease-in-out;
 }
 .header_btn1:hover{
 	transform: scale(1.2);	
-	color: darkgray ;
+	color: #FFFFFF;
 }
 .header_btn2{
 	font-family: Poppins;
@@ -169,17 +169,6 @@ width: 182px;
 }
 .header_btn2:hover{
 	background: #fa9366;
-}
-.header_link{
-	font-family: Poppins;
-font-size: 18px;
-font-weight: 500;
-line-height: 24px;
-text-align: left;
-color: darkgray ;
-}
-.header_link:hover{
-	
 }
 /* header_link */
 a {
@@ -195,83 +184,44 @@ color: darkgray ;
     margin: 0 15px;
     transition: 0.5s;
 }
-
-
-
 a:hover {
-    color: #255784;
-    background: #21ebff;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    color: #fff;
+    background: #FF6E30;
+    box-shadow: 0 0 10px #ff9263, 0 0 40px #ff9263, 0 0 80px #ff9263;
     transition-delay: 0s;
 }
-
-
 a span {
     position: absolute;
     display: block;
 }
 
-
-
-
-a span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #2196f3);
+/* awesome */
+.awesome_tit{
+	font-family: Poppins;
+font-size: 50px;
+font-weight: 500;
+line-height: 70px;
+text-align: left;
+width: 500px;
+color: #fff;
+}
+.awesome_txt{
+	font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: darkgray;
+width: 400px;
+margin: 3% 0 6%;
+}
+.awesome_input{
+	background: #4f4d4d;
+	padding: 3%;
+	border-radius: 12px;
+	border: 1px solid rgb(59, 59, 59);
+	color: #8f8f8f;
+	margin-bottom: 14%;
 }
 
-
-
-a:hover span:nth-child(1) {
-    left: 100%;
-    transition: 1s;
-}
-
-
-a span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #2196f3);
-}
-
-a:hover span:nth-child(3) {
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
-}
-
-
-
-a span:nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, #2196f3);
-}
-
-a:hover span:nth-child(2) {
-    top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
-}
-
-
-
-a span:nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, #2196f3);
-}
-
-a:hover span:nth-child(4) {
-    bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
-}
+/* share */
