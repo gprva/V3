@@ -68,7 +68,7 @@ body{
 	display: none;
 }
 section{
-	padding: 100px 0;
+	padding: 60px 0 0;
 }
 .sec_tit{
 	font-weight: 800;
@@ -223,5 +223,34 @@ margin: 3% 0 6%;
 	color: #8f8f8f;
 	margin-bottom: 14%;
 }
-
+.awesome{
+	justify-content: space-between;
+}
+.awesome_img{
+	height: 73%;
+}
 /* share */
+
+
+
+
+/* most */
+.most_tit{
+	font-family: Poppins;
+font-size: 48px;
+font-weight: 500;
+line-height: 62.4px;
+text-align: center;
+margin-bottom: 1%;
+color: white;
+}
+.most_txt{
+	font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+width: 427px;
+margin: 0 auto;
+color: darkgray;
+}
