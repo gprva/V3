@@ -40,7 +40,7 @@ p.small{
 .card1{
 	display:block;
 	position:relative;
-	max-width:262px;border-radius:4px;padding:32px 24px;margin:12px;text-decoration:none;z-index:0;overflow:hidden
+	max-width:262px;border-radius:4px;padding:32px 24px;margin:33px;text-decoration:none;z-index:0;overflow:hidden
 }
 	.card1:before{content:"";position:absolute;z-index:-1;top:-16px;right:-16px;
 
@@ -352,4 +352,14 @@ color: #FFA5378C;
 .a_btn span {
     position: absolute;
     display: block;
+}
+
+
+/* most_card_down */
+.most_card_down_ic1{
+	
+	background: red;
+	width: 100px;
+	height: 100px;
+
 }
