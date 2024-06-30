@@ -357,9 +357,21 @@ color: #FFA5378C;
 
 /* most_card_down */
 .most_card_down_ic1{
-	
 	background: red;
 	width: 100px;
 	height: 100px;
 
+}
+
+.most_btn{
+	color: #FF6E30;
+	border: 2px solid rgb(78, 77, 77);
+	border-radius: 8px;
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+.most_btn:hover{
+	border: 2px solid rgb(255, 119, 0);
 }
