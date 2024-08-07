@@ -456,10 +456,13 @@ transition: 0.3s;
 	margin: 0 10px;
 	text-align: center;
 	cursor: pointer;
-	border-radius: 50%;
-	border: 5px solid #D8E2DC;
+	border-radius: 29%;
+	border: 4px solid #D8E2DC;
 	float: left;
 	transition: all 0.5s ease;
+	align-items: center;
+	display: flex;
+	justify-content: center;
   }
   
   /* Style the icons by setting its color and margin-top value to 20px 
@@ -467,7 +470,7 @@ transition: 0.3s;
   .wrapper ul li .fa {
 	color: #D8E2DC;
 	transition: all 0.5s ease;
-	font-size: 28px;
+	font-size: 23px;
 	
   }
   
@@ -583,4 +586,5 @@ transition: 0.3s;
 .google a,
 .whatsapp a:hover{
 	background: none;
+	box-shadow: none;
 }
