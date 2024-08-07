@@ -436,8 +436,11 @@ line-height: 24px;
 text-align: left;
 color: #787878;
 margin: 5% 0;
+transition: 0.3s;
 }
-
+.footer_card_2:hover{
+	color: #c7c4c4;
+}
 .footer_cards{
 	justify-content: space-around;
 }
